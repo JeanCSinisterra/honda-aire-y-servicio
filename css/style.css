@@ -1,0 +1,167 @@
+body {
+  background-color: #F8F9FD;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #4BA6EB; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+/* NavBar Section */
+.color-me {
+  margin: 0.5rem;
+}
+
+/* Heading & Paragraph Section */
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5rem;
+  color: #4BA6EB;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.0rem;
+  line-height: 1.5rem;
+  color: #4BA6EB;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #4BA6EB;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  color: #161D25;
+}
+
+/* Hero Section */
+
+@media (max-width: 992px) {
+  #hero-section {
+    text-align: center;
+  }
+}
+
+.honda-crv {
+  position: absolute;
+  width: 40%;
+  height: auto;
+}
+
+.cta-btn {
+  background-color: #4FCE5D;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  color: #F8F9FD;
+  border: none;
+  border-radius: 1rem;
+  padding: 1% 2%;
+}
+
+/* Services Section in Homepage */
+section {
+  padding: 70px 0;
+  background-color: #F8F9FD;
+}
+
+section .section-title {
+  text-align: center;
+  color: #4BA6EB;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+/*The script below is to determine the size of the each card */
+#what-we-do .card {
+  background-color: #F8F9FD;
+  padding: 1rem !important;
+  border: none;
+  margin-bottom: 1rem;
+  transition: .5s all ease;
+}
+
+/* the script below is to put the svg icon at the left of the text.  */
+#what-we-do .card .card-block {
+  padding-left: 70px;
+  position: relative;
+}
+
+/* the script below is to set the size of each svg icon */
+.icon-img {
+  position: absolute;
+  left: 0;
+  -webkit-transition: -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+}
+
+.card-text {
+  width: 300px;
+}
+
+
+/* Horarios Section */
+
+
+
+.horarios {
+  background-color: #F8F9FD;
+}
+
+.list-horarios {
+  display: flex;
+  margin: 20px auto;
+}
+
+.iconos-horarios {
+  align-content: center;
+}
+
+/* Map Section */
+.googlemap {
+  display: block;
+  margin: auto;
+}
+
+
+/* Footer Section */
+.footer-has {
+background: rgb(7,133,232);
+background: linear-gradient(360deg, rgba(7,133,232,1) 0%, rgba(75,166,235,1) 55%);
+}
+
+.footer-div{
+  margin-left: -2rem;
+}
+
+.list-footer {
+  display: flex;
+}
+
+.footer-logo {
+  align-self: flex-end;
+  
+}
+
+.iconos-footer{
+  width: 10%;
+  height: 5%;
+  padding-bottom: 10%;
+}
+
+.text-list{
+  margin-left: 7px;
+}

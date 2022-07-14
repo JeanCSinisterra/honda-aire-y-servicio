@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.309" height="32.1" viewBox="0 0 24.309 32.1">
+  <g id="location-pin.svg" transform="translate(0.05 0.05)">
+    <path id="Path_2079" data-name="Path 2079" d="M56.188,0a12.118,12.118,0,0,0-12.1,12.1c0,2.753,1.9,6.779,5.64,11.966,2.706,3.75,5.368,6.713,5.48,6.837L56.189,32l.985-1.093c.112-.124,2.774-3.087,5.48-6.837,3.742-5.187,5.64-9.213,5.64-11.966A12.118,12.118,0,0,0,56.188,0Zm0,28.008c-3.334-3.9-9.453-11.883-9.453-15.9a9.453,9.453,0,0,1,18.907,0C65.642,16.126,59.523,24.11,56.188,28.008Z" transform="translate(-44.084)" fill="#707070" stroke="#4ba6eb" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.1"/>
+    <circle id="Ellipse_12" data-name="Ellipse 12" cx="4.391" cy="4.391" r="4.391" transform="translate(7.713 7.713)" fill="#707070" stroke="#4ba6eb" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.1"/>
+  </g>
+</svg>

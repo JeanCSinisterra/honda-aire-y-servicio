@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="112" viewBox="0 0 112 112">
+  <g id="Group_378" data-name="Group 378" transform="translate(-1267 -1837)">
+    <circle id="Ellipse_7" data-name="Ellipse 7" cx="56" cy="56" r="56" transform="translate(1267 1837)" fill="#fffefa"/>
+    <g id="Engine_icon" data-name="Engine icon" transform="translate(1292.265 1870.692)">
+      <g id="Group_55" data-name="Group 55">
+        <path id="Path_2054" data-name="Path 2054" d="M53.539,89.274H50.564V83.326H45.907L39.959,79.36H33.71V73.411h7.932V71.428h-23.8v1.983h7.932V79.36H19.462l-6.94,5.949H6.94v5.949H1.983V82.334H0v24.787H1.983V99.189H6.94v7.932h5.685l6.94,3.966h11.17V109.1H20.093l-6.212-3.55v-18.8L20.2,81.343H39.358l5.258,3.5v3.435H46.6V85.308h1.983v23.8H46.6v1.983h3.966v-4.957h2.974v1.983H61.47V86.3H53.539ZM6.94,97.206H1.983V93.24H6.94Zm4.957,7.932H8.923V87.291H11.9ZM31.727,79.36H27.761V73.411h3.966Zm21.812,24.787H50.564V91.257h2.974Zm1.983-15.863h3.966v17.846H55.522Z" transform="translate(0 -71.428)" fill="#707070" stroke="#707070" stroke-width="0.5"/>
+        <path id="Path_2055" data-name="Path 2055" d="M124.455,149.8h-7.407l4.957-6.94h-9.48l-5.949,11.9h6.238l-2.672,9.355Zm-14.67,2.974,3.966-7.932h4.4l-4.957,6.94h6.473l-5.516,5.516,1.294-4.525Z" transform="translate(-84.386 -127.985)" fill="#707070" stroke="#707070" stroke-width="0.2"/>
+        <rect id="Rectangle_386" data-name="Rectangle 386" width="4.957" height="1.983" transform="translate(39.658 37.676)" fill="#707070"/>
+        <path id="Path_2057" data-name="Path 2057" d="M162.1,233.528h1.983v-4.957H162.1v4.957h-4.957v1.983H162.1v4.957h1.983v-4.957H162.1Z" transform="translate(-124.425 -195.853)" fill="#707070"/>
+      </g>
+    </g>
+  </g>
+</svg>
