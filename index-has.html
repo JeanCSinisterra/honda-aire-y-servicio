@@ -34,7 +34,7 @@
   <nav class="navbar navbar-expand-lg navbar-light" style="background: #FFFEFA">
     <div class="container">
       <a class="navbar-brand" href="index-has.html">
-        <img src="images/has-logo.png" alt="Honda-Aire-y-Servicio" style="width:25%;" class="d-inline-block align-text img-fluid"></a>
+        <img src="images/has-logo.png" alt="Honda-Aire-y-Servicio" style="width:25%;" class="has-logo d-inline-block align-text img-fluid"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -57,28 +57,27 @@
 
   <!-- Hero Section -->
   <section id="hero-section">
-    <div class="container col-xxl-8 px-3 py-4">
-      <div class="row flex-lg-row-reverse align-items-center g-1 py-1">
-        <div class="col-sm-8 col-lg-6">
-          <img src="images/honda-hero.png" class="d-block mx-lg-auto img-fluid honda-crv" width="700" height=auto loading="lazy" alt="Taller Honda">
-        </div>
-        <div class="col-sm-8 col-lg-6">
+    <div class="container justify-content col-xxl-8 px-3 py-4">
+        <div class="col-sm-8 col-lg-6 hero-title">
           <h1 class="fw-bold lg-1" style="color:#4BA6EB">Honda Aire y Servicio</h1>
           <p class="lead fs-4 fw-light text-lg-start">Tú especialista en reparación y mantenimiento de Autos Honda en Panamá.
             Nuestro compromiso es ganar tu Confianza al proporcionar la experiencia, el valor y la responsabilidad que esperas.</p>
+            <div class="cta-block">
+              <!-- Click to Action Button to Whatsapp -->
+              <h3 class="cta-title fs-5 fw-bold text-lg-start" style="color:#4BA6EB">Solicita tu cita</h3>
+                <button class="cta-btn" id="whatsapp-button" type="button" name="button">
+                <i class="fa-brands fa-whatsapp"></i>
+                Contactanos
+              </button>
+            </div>
+          </div>
+    <!-- Section where the Honda CRV is placed -->
+    <div class="justify-content-evenly flex-lg-row-reverse g-1 py-1">
+      <div class="col-sm-8 col-lg-6">
+      <img src="images/honda-hero.png" class="inline-block mx-lg-auto img-fluid honda-crv" loading="lazy" alt="Taller Honda">
         </div>
-      </div>
-<!-- Click to Action Button to Whatsapp -->
-      <div class="container col-xxl-10 px-3 py-4">
-        <div class="hero-button">
-          <h3 class="fs-5 fw-bold text-lg-start" style="color:#4BA6EB">Solicita tu cita</h3>
-          <button class="cta-btn" id="whatsapp-button" type="button" name="button">
-            <i class="fa-brands fa-whatsapp"></i>
-            Contactanos
-          </button>
-        </div>
-      </div>
-
+    </div>
+</div>
   </section>
 
   <!-- Services Section -->
@@ -162,11 +161,11 @@
   </section>
 
   <!-- Horarios Section -->
-<section class="horarios">
-  <div class="container col-lg-8 shadow min-vh-50" style="background: #FFFEFA;">
+<section id="horarios">
+  <div class="container col-lg-9 shadow min-vh-60" style="background: #FFFEFA;">
     <div class="card-body">
-        <div class="row g-0">
-            <div class="col-md-4">
+        <div class="row g-0 ">
+            <div class="pic-taller col-md-4">
                 <img src="images/has-taller.png"  alt="Taller para Honda" class="taller-img img-fluid rounded-start" width= "60%"/>
       </div>
       <div class="col-md-8">
@@ -206,7 +205,7 @@
 </section>
 
   <!-- Footer Section -->
-      <footer class="footer-has">
+  <footer class="footer-has">
         <div class="container p-5">
           <div class="row">
             <div class="col-lg-3 col-md-6 mb-3 footer-div">
@@ -244,6 +243,8 @@
          <a class="text-light" href="https://jeancsinisterra.github.io/Website-Portfolio/">  © 2022 Jean C. Sinisterra</a>
         </div>
       </footer>
+
+      
 
   <!-- Javascript Script -->
   <script src="main.js"></script>
