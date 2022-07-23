@@ -23,6 +23,7 @@ body {
   margin: 0.5rem;
 }
 
+
 /* Heading & Paragraph Section */
 h1 {
   font-family: 'Montserrat', sans-serif;
@@ -50,16 +51,30 @@ p {
 
 /* Hero Section */
 
-@media (max-width: 992px) {
+@media (max-width: 1028px) {
   #hero-section {
+    display: flex;
+    justify-content: center;
     text-align: center;
   }
 }
 
 .honda-crv {
-  position: absolute;
-  width: 40%;
+  width: 100%;
   height: auto;
+  display: block;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.has-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.cta-block {
+  justify-content: center;
 }
 
 .cta-btn {
@@ -83,6 +98,8 @@ section .section-title {
   color: #4BA6EB;
   margin-bottom: 50px;
   text-transform: uppercase;
+  display: flex;
+  justify-content: center;
 }
 
 /*The script below is to determine the size of the each card */
@@ -110,12 +127,26 @@ section .section-title {
 
 .card-text {
   width: 300px;
+  display: flex;
+  justify-content: left;
 }
 
 
 /* Horarios Section */
+@media (max-width: 768px) {
+  #horarios{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+}
 
-
+.pic-taller {
+  margin-top: 8px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+}
 
 .horarios {
   background-color: #F8F9FD;
@@ -123,11 +154,13 @@ section .section-title {
 
 .list-horarios {
   display: flex;
+  justify-content: left;
   margin: 20px auto;
 }
 
 .iconos-horarios {
-  align-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 /* Map Section */
@@ -138,6 +171,7 @@ section .section-title {
 
 
 /* Footer Section */
+
 .footer-has {
 background: rgb(7,133,232);
 background: linear-gradient(360deg, rgba(7,133,232,1) 0%, rgba(75,166,235,1) 55%);
@@ -152,14 +186,16 @@ background: linear-gradient(360deg, rgba(7,133,232,1) 0%, rgba(75,166,235,1) 55%
 }
 
 .footer-logo {
-  align-self: flex-end;
-  
+  display: flex;
+  justify-content: right;
 }
 
 .iconos-footer{
   width: 10%;
   height: 5%;
   padding-bottom: 10%;
+  display: flex;
+  justify-content: left;
 }
 
 .text-list{
